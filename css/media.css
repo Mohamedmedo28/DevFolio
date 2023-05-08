@@ -1,0 +1,252 @@
+@media all and (max-width:575px) {
+    .work .layout .carousel  p{
+        font-size: 13px !important;
+        font-weight: 100;
+        /* margin: 50px 0 0 0 !important; */
+        /* color: red !important; */
+    }
+    .work .layout .carousel  i{
+        font-size: 30px;
+        border-radius: none;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translate(190px,-12px);
+        margin: 15px 0;
+
+        
+     }
+     .work .layout .carousel .carousel-item {
+      text-align: center;
+      
+    }
+    .work .layout{
+        position: relative;
+    }
+
+    .work .layout .carousel .btn1{
+        background-color: black;
+        position: absolute;
+        margin-bottom: 15px;
+        bottom: 200px;
+        left: 100px;
+        /* margin: 10px 0; */
+    }
+    .work .layout .carousel .btn2{
+        background-color:black;
+        position: absolute;
+        margin-bottom: 15px;
+        bottom: 120px;
+        right: 200px;
+    }
+}
+
+@media all and (min-width:576px) and (max-width:767px) {
+    .work .layout .carousel  p{
+        font-size: 15px !important;
+        font-weight: 100;
+        /* margin: 50px 0 0 0 !important; */
+        /* color: red !important; */
+    }
+    .work .layout .carousel  i{
+        font-size: 30px;
+        border-radius: none;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translate(220px,-12px);
+        margin: 15px 0;
+
+        
+     }
+     .work .layout .carousel .carousel-item {
+      text-align: center;
+      
+    }
+    .work .layout{
+        position: relative;
+    }
+
+    .work .layout .carousel .btn1{
+        background-color: yellow;
+        position: absolute;
+        bottom: 100px;
+        left: 100px;
+        /* margin: 10px 0; */
+    }
+    .work .layout .carousel .btn2{
+        background-color:yellow;
+        position: absolute;
+        bottom: 100px;
+        right: 100px;
+    }
+   
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .work .layout .carousel  p{
+        font-size: 18px !important;
+        font-weight: 100;
+        /* margin: 50px 0 0 0 !important; */
+        /* color: red !important; */
+    }
+    .work .layout .carousel  i{
+        font-size: 30px;
+        border-radius: none;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translate(300px,-20px);
+        margin: 20px 0;
+
+        
+     }
+     .work .layout .carousel .carousel-item {
+      text-align: center;
+      
+    }
+    .work .layout{
+        position: relative;
+    }
+
+    .work .layout .carousel .btn1{
+        background-color: black;
+        position: absolute;
+        margin-bottom: 15px;
+        bottom: 100px;
+        left: 170px;
+        /* margin: 10px 0; */
+    }
+    .work .layout .carousel .btn2{
+        background-color:black;
+        position: absolute;
+        margin-bottom: 15px;
+        bottom: 100px;
+        right: 180px;
+    }
+   
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    .work .layout .carousel  p{
+        font-size: 20px !important;
+        font-weight: 300;
+        /* margin: 50px 0 0 0 !important; */
+        /* color: red !important; */
+    }
+    .work .layout .carousel  i{
+        font-size: 30px;
+        border-radius: none;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        transform: translate(420px,-20px);
+        margin: 15px 0;
+
+        
+     }
+     .work .layout .carousel .carousel-item {
+      text-align: center;
+      
+    }
+    .work .layout{
+        position: relative;
+    }
+
+    .work .layout .carousel .btn1{
+        background-color: black;
+        position: absolute;
+        bottom: 100px;
+        left: 370px;
+        /* margin: 10px 0; */
+    }
+    .work .layout .carousel .btn2{
+        background-color:black;
+        position: absolute;
+        bottom: 100px;
+        right: 370px;
+    }
+   
+}
+
+@media all and (min-width:1200px)  {
+    .work .layout .carousel h2{
+        text-align: center;
+    }
+}
+
+/* */
+@media all and (max-width:575px) {
+    .bg-image .layout .container .icon {
+        
+        /* margin: 0 10px !important; */
+        padding: 0 15px !important;
+        /* overflow: hidden; */
+    }
+    .bg-image {
+        height: 65vh;
+      
+    }
+
+   
+}
+@media all and (min-width:576px) and (max-width:767px){
+    .bg-image .layout .container .icon{
+        /* padding: 0 30px !important; */
+        
+        /* color: aqua; */
+        /* margin: 15px  30px !important;  */
+        text-align: center;
+ 
+    }
+    .bg-image .layout .container .icon p{
+        font-size: 12px;
+        margin-bottom: 30px !important;
+    }
+    .bg-image {
+        /* margin-bottom: 30px !important; */
+        height: 70vh;
+      
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px){
+    .bg-image {
+        height: 70vh;
+      
+    }
+/* 
+    .bg-image .layout .container .icon{
+
+     padding-bottom: 30px !important;
+        color: blueviolet;
+    } */
+}
+
+@media all and (min-width:992px) and (max-width:1199px){
+    .bg-image {
+        height: 70vh;
+      
+    }
+    .bg-image .layout .container .icon{
+        color: blue;
+    }
+    .bg-image .layout .container .icon p{
+        margin-bottom: 15px !important;
+    }
+}
+@media all and (min-width:1200px)  {
+    .bg-image {
+        height: 65vh;
+        color: brown;
+      
+    }
+}

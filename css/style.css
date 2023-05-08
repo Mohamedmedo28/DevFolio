@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #4e4e4e;
+    background-color: #f5f5f5;
+   
+    font-family: 'Roboto', sans-serif;   
+    
+}
+.navbar{ 
+    padding-top: 20px;
+    background-color: rgba(20, 20, 20, 0.7);
+    
+}
+.navbar .container ul li a{
+    margin: 0 5px;
+    margin-right: 15px;
+    position: relative;
+}
+.navbar .container ul li .active{
+    position: relative;
+    color: aqua;
+}
+.navbar .container ul li .active::after{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: aqua;
+    bottom: 0;
+    left: 7px;
+
+}
+ /* .navbar .container ul li .mm::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: aqua;
+    bottom: 0;
+    left: 7px;
+    display: none;
+
+} */
+.navbar .container ul li  .mm:hover{
+    color: aqua;
+ 
+    
+    
+}
+
+
+  
+
+
+/* home  */
+.home{
+    background-image: url(../img/intro-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 98vh;
+}
+.homeLayer{
+        width: 100%;
+        height: 100%;
+       background: rgba(0, 0, 0, 0.6) ;
+      display: flex;
+      text-align: center;
+      align-items: center;
+    
+}
+.container{
+    text-align: center;
+    color: white;
+   
+}
+.home .homeLayer .container h1{
+    font-size: 65px;
+}
+.home .homeLayer .container p{
+    font-size: 20px;
+}
+.Graphic-Designer::after{
+    content: "";
+    animation: typingSkill 2s  infinite ;
+}
+
+@keyframes typingSkill {
+    0%{ content: "G";}
+    10%{ content: "Gr";}
+    20%{ content: "Gra";}
+    30%{ content: "Grap";}
+    40%{ content: "Graphi";}
+    50%{ content: "Graphic-";}
+    60%{ content: "Graphic-D";}
+    70%{ content: "Graphic-De";}
+    80%{ content: "Graphic-Desi";}
+    90%{ content: "Graphic-Desig";}
+    100%{ content: "Graphic-Designer|";}
+    
+}
+/*  About   */
+.About{
+        /* background-color: #f5f5f5; */
+}
+.About p{
+    color: #4e4e4e;
+
+  
+}
+.About .container{
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.col-md-6 .para{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 50px;
+
+}
+.col-md-6 .About-me{
+    position: relative;
+   
+}
+.col-md-6 .About-me::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;
+    bottom: -12;
+    left: 0;
+
+   
+}
+/*   SERVICES     */
+.SERVICES .container .top-section h1{
+    position: relative;
+}
+.SERVICES .container .top-section h1::after{
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #0078ff;
+    left: 48%;
+    bottom:-50 ;
+}
+
+
+.SERVICES .container .icon{
+    color: #1e1e1e;
+    height: 100px;
+    width: 100px;
+    /* font-size: 2rem; */    
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+.SERVICES .container .icon p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.SERVICES .container .icon{
+    /* padding: 15px; */
+    /* margin: 20px; */
+}
+.SERVICES .container .card{
+    border: 0px;
+}
+
+.SERVICES .container .card:hover .icon{
+    box-shadow: 0 0 0 10px whitesmoke;
+    color: white;
+    background-color: #0078ff;
+}
+/*     */
+.bg-image{
+    background-image: url(../img/post-3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+}
+.bg-image .layout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #0078ff;
+}
+.bg-image .layout .container{
+    padding-top: 90px;
+}
+.bg-image .layout .container .icon i{
+    color: white;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 10px whitesmoke;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*    PORTFOLIO  */
+
+.PORTFOLIO .container .row .card{
+    border: 0px;
+    margin-top: 40px;
+}
+.PORTFOLIO .container .row .card-body-item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+
+.PORTFOLIO .container .row .card .card-img{
+    overflow: hidden;
+
+}
+.PORTFOLIO .container .row .card img{
+    transition: all 1s ease-in-out ;
+}
+.PORTFOLIO .container .row .card:hover img{
+    transform: scale(1.5,1.5);
+}
+/*     work */
+.work{
+    background-image: url(../img/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+.work .layout{
+    opacity: .7;
+    background-color: #0078ff;
+    
+}
+.work .layout i{
+    /* width: 100px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.work .layout .carousel  p{
+    font-size: 30px !important;
+    font-weight: 400;
+    /* color: red !important; */
+}
+.work .layout .carousel  i{
+   font-size: 40px;
+    /* color: red !important; */
+    border-radius: 50%;
+    background-color: white;
+}
+
+/*      blog  */
+.BLOG .container .card .card-body .TRAVEL{
+    left: 40%;
+   bottom: 42%;
+    
+}
+.BLOG .container .card .card-body .TRAVEL h6{
+    background-color: #0078ff;
+    border-radius: 4px;
+        text-align: center;
+    padding: 0 15px 5px;
+
+}
+.BLOG .container .card .card-body .hover{
+    transition: all 1s;
+}
+.BLOG .container .card .card-body .hover:hover{
+    
+    color: #0078ff;
+}
+.BLOG .container .card .card-body .under-bodey{
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.BLOG .container .card .card-body .under-bodey img{
+    width: 30px;
+    margin-right: 15px;
+}
+.BLOG .container .card .card-body .under-bodey h6{
+    transition: all 1s;
+}
+.BLOG .container .card .card-body .under-bodey h6:hover{
+    color: #0078ff;
+
+}
+/*       */
+.CONTACT{
+    margin-top: 30px;
+    background-image: url(../img/overlay-bg.jpg);
+    
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+/* .CONTACT .layout{
+    opacity: .7;
+    background-color: #0078ff;
+
+  
+} */
+.CONTACT .layout .container h2{
+    font-size: 2rem;
+}
+
+.CONTACT .container .row  .button-a 
+{
+
+    background-color: #0078ff;
+color: #fff;
+border-color: #cde1f8;
+border-radius: 5rem;
+padding: 0.9rem 2.3rem;
+font-size: 1.2rem;
+
+
+}
+.CONTACT .container .row  .buttonuu{
+    margin-right: 50px;
+}
+
+.CONTACT .container .row .para{
+    font-size: 1.25rem;
+    font-weight: 200;
+
+}
+.CONTACT .container .row   .icon-location{
+   display: flex;
+  
+}
+
+.CONTACT .container .row  .icon-location i{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    margin: 0 10px;
+    margin-top: 20px;
+    color: #1e1e1e;
+    background-color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 0 3px #0078ff;
+    transition: all 1s
+  
+}
+.CONTACT .container .row   i:hover {
+    box-shadow: 0 0 0 3px whitesmoke;
+    color: white;
+    background-color: #0078ff;
+}
+
+/* 
+.SERVICES .container .icon{
+    color: #1e1e1e;
+    height: 100px;
+    width: 100px;
+      
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    margin-top: 5px;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+.SERVICES .container .icon p{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.SERVICES .container .icon{
+   
+}
+.SERVICES .container .card{
+    border: 0px;
+}
+
+.SERVICES .container .card:hover .icon{
+    box-shadow: 0 0 0 10px whitesmoke;
+    color: white;
+    background-color: #0078ff;
+} */
